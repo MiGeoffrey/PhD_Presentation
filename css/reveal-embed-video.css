@@ -1,0 +1,10 @@
+video.live-video {
+    
+    z-index: 1;
+    background: none;
+}
+
+/* show the video element only if the stream if active */
+video.live-video:not([data-enabled]) {
+    display: none;
+}
